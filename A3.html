@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="maind.css" rel="stylesheet">
+        <title>pagina1</title>
+    </head>
+    <body>
+        <h1 align= "center" class="azul">Um site sobre mim</h1>
+        <h3 class="branco">Neste trabalho falarei um pouco sobre meus gostos e hobbys.</h3>
+
+        <div>
+            <h3 class="branco">Formulário de entrada</h3>
+            <p class="branco">Insira suas informações:</p>
+        </div>
+            <form action="redirecionamento.html" method="get">        
+                <fieldset>
+                    <div>
+                        <label class="branco">Nome:</label>
+                        <input type="text" name="nome" placeholder="Nome" required>
+                    </div>
+
+                    <div>
+                        <label class="branco">Email:</label>
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+
+                    <div>
+                        <button type="submit" onclick="return validar()">Acessar</button>
+                    </div>
+
+                </fieldset>
+            </form>
+       
+    </body>
+
+</html>
